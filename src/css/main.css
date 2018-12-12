@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 #map {
-	height: 90%;
+	height: 100%;
   width: 100%;
 }
 
@@ -11,7 +11,7 @@ html, body {
   padding: 0;
 }
 
-body{
+body {
 	background-color: #e3e3e3;
 	height: 100%;
 }

@@ -4,32 +4,57 @@
     <title>Geek Team Maps</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
     <link rel="stylesheet" href="../src/css/main.css">
-    <style>
-    </style>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/css/mdb.min.css" rel="stylesheet">
   </head>
   <body style="line-height: 2.5;">
-    <nav class="navbar navbar-light bg-light bg-dark">
-      <a class="navbar-brand" href="#" style="color: white;">Geek Team Maps</a>
-    </nav>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrolling-navbar">
+        <a class="navbar-brand" href="#"><strong>Semreg Google API Maps</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Semreg"><i class="fa fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://steamcommunity.com/id/germeso"><i class="fa fa-steam"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4-%D1%87%D0%B0%D0%B1%D0%B0%D0%BD%D1%8E%D0%BA-792849159/"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!--Блок карты-->
     <div id="map"></div>
     <!--Блок карты-->
 
-    <footer class="page-footer font-small bg-dark" style="height: auto">
-      <div class="footer-copyright text-center py-3" style="color: white">
-        <a href="https://mdbootstrap.com/bootstrap-tutorial/" style="color: white; text-decoration: none"> Geek Team</a>© 2018
-      </div>
-    </footer>
-
-    <!--Скрипты для карты-->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js"></script>
+    <!-- My map scripts -->
     <script src="../src/js/mapstyles.js"></script>                                                                                                                                       
     <script src="../src/js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnxmUrOLPG2WWQ-30hK8Gv7Ma1yntLzWM&callback=initMap"
     async defer></script>
-    <!--Скрипты для карты-->
+    <!-- My map scripts -->
   </body>
 </html>
